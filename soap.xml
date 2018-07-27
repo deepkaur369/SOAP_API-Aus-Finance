@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cus="http://siebel.com/CustomUI" xmlns:opp="http://www.siebel.com/xml/Opportunity" xmlns:web="http://siebel.com/webservices">
+   <soapenv:Header>
+		<web:SessionType>none</web:SessionType>
+		<web:PasswordText>jf03ld</web:PasswordText>
+		<web:UsernameToken>FLEXWSINTTEST</web:UsernameToken>
+   </soapenv:Header>
+   <soapenv:Body>
+      <cus:SyncOpportunity4_Input>
+         <cus:SendConfirmationEmail>?</cus:SendConfirmationEmail>
+         <cus:UpdateToken/>
+         <cus:SimpologyBypass>?</cus:SimpologyBypass>
+         <Opportunity>
+           <ApplicationState>WA</ApplicationState>
+        <AFGPaidReferrerId/>
+        <AssignedDate>01/11/2013</AssignedDate>
+        <AppointmentBookedDate>03/11/2013</AppointmentBookedDate>
+        <AppointmentCompletedDate>04/11/2013</AppointmentCompletedDate>
+        <OnHoldDate>05/11/2013</OnHoldDate>
+        <CloseDate>05/11/2013</CloseDate>
+        <CloseReason>Other</CloseReason>
+        <Comments>Testing Opty Sync V4</Comments>
+        <ContactedDate>01/11/2013</ContactedDate>
+        <Custom1/>
+        <Custom2/>
+        <Custom3/>
+        <Custom4/>
+        <Custom5/>
+        <CustomNumber1>5</CustomNumber1>
+	 <CustomDate1>01/01/1990</CustomDate1>
+	 <CustomText1>Test</CustomText1>
+        <Description>Testing Opty Sync V4 (2)</Description>
+        <DesiredSurplus>8000</DesiredSurplus>
+        <ExitStrategyCode>Downgrade</ExitStrategyCode>
+        <ExitStrategyDescription>Strategy desc.</ExitStrategyDescription>
+        <FHB>Y</FHB>
+        <FHBAmount>7000</FHBAmount>
+        <FLEXId/>
+        <HOC>Y</HOC>
+        <IndependentLoanWriterId/>
+        <IntegrationId>Opp-001</IntegrationId>
+        <LoanPurpose/>
+        <!-- Change to loan writer in your organisation -->
+        <LoanWriterId>FLEXWSINTTEST</LoanWriterId>
+        <LeadSource>Testing Lead</LeadSource>
+        <OwnFunds>100000</OwnFunds>
+        <CashSavings>2000</CashSavings>
+        <GiftAmount>3000</GiftAmount>
+        <PreApproval>Y</PreApproval>
+        <PrimaryApplicantId/>
+        <ProposedLoanAmount>940000</ProposedLoanAmount>
+        <ProposedLoanTerm>30</ProposedLoanTerm>
+        <ReceiveDocumentation>All Applicants</ReceiveDocumentation>
+	 <LegalRepresentation>Solicitor</LegalRepresentation>
+	 <LenderNote>Sample note to lender</LenderNote>	
+        <ReferrerAsOnRCTI>Testing referrer</ReferrerAsOnRCTI>
+        <RequirementsAndObjectives>Testing web service</RequirementsAndObjectives>
+        <StartDate>04/11/2013</StartDate>
+        <UpStamp>N</UpStamp>
+        <PrimaryApplicantIntegrationId>app-001</PrimaryApplicantIntegrationId>
+        <IncomeCheckPAYG>Y</IncomeCheckPAYG>
+        <IncomeCheckTaxReturn>Y</IncomeCheckTaxReturn>
+        <IncomeCheckAccountStatement>Y</IncomeCheckAccountStatement>
+        <IncomeCheckAccountantDeclaration>Y</IncomeCheckAccountantDeclaration>
+        <IncomeCheckLoanStatements>Y</IncomeCheckLoanStatements>
+        <IncomeCheckOther>Other paper works</IncomeCheckOther>
+        <ReferenceId>myorg-00023456</ReferenceId>
+        <ExpectedSettlementDate>01/12/2013</ExpectedSettlementDate>
+        <AllowDeletingAllLiabilities>Y</AllowDeletingAllLiabilities>
+        <AllowDeletingAllProperties>Y</AllowDeletingAllProperties>
+        <AllowDeletingAllAssets>Y</AllowDeletingAllAssets>
+        <AllowDeletingAllIncomes>Y</AllowDeletingAllIncomes>
+        <AllowDeletingAllExpenses>Y</AllowDeletingAllExpenses>
+        <AllowDeletingAllApplicants>Y</AllowDeletingAllApplicants>
+        <AllowDeletingAllProducts>Y</AllowDeletingAllProducts>
+        <AllowDeletingAllThirdParties>Y</AllowDeletingAllThirdParties>
+        <AllowDeletingAllActivities>Y</AllowDeletingAllActivities>
+        <AllowDeletingAllAssetOwnership>Y</AllowDeletingAllAssetOwnership>
+        <AllowDeletingAllLiabilityOwnership>Y</AllowDeletingAllLiabilityOwnership>
+        <AllowDeletingAllPropertyOwnership>Y</AllowDeletingAllPropertyOwnership>
+        <AllowDeletingAllResponsibleLending>Y</AllowDeletingAllResponsibleLending>
+	   <AllowDeletingAllEmployment>Y</AllowDeletingAllEmployment>
+	   <AllowDeletingAllIdentifications>Y</AllowDeletingAllIdentifications>
+            <!--Applicant 1-->
+            <Applicant>
+          <Channel>Web</Channel>
+          <DirectAddressStreet>345 Testing Road</DirectAddressStreet>
+          <DirectAddressCity>Claremont</DirectAddressCity>
+          <DirectAddressPostalCode>6010</DirectAddressPostalCode>
+          <DirectAddressState>WA</DirectAddressState>
+          <LeadAssignedFlag>N</LeadAssignedFlag>
+          <LeadReferenceId/>
+          <Source>Website</Source>
+          <BestCallTime>Early morning</BestCallTime>
+          <CellularPhone>0410-111-222</CellularPhone>
+          <Comments>from web site</Comments>
+          <DateOfBirth>01/09/1972</DateOfBirth>
+          <DriversLicense>123000000</DriversLicense>
+          <FLEXId/>
+          <Company>N</Company>
+          <Dependents>2</Dependents>
+          <DependentAge>
+	       <Name>Allan</Name>
+	       <Age>5</Age>
+          </DependentAge>
+          <DependentAge>
+	       <Name>Steve</Name>
+	       <Age>10</Age>
+	   </DependentAge>
+	   <Director>Y</Director>
+          <DoNotCall>Y</DoNotCall>
+          <DoNotSendEmail>Y</DoNotSendEmail>
+          <DoNotSendMail>Y</DoNotSendMail>
+          <DoNotSendMarketing>Y</DoNotSendMarketing>
+          <DoNotSendSMART>N</DoNotSendSMART>
+          <EmailAddress>john.citizen@afgonline.com.au</EmailAddress>
+          <FirstName>John</FirstName>
+          <Gender>M</Gender>
+          <Guarantor>N</Guarantor>
+          <HomePhone>+610811112222</HomePhone>
+          <HouseholdContact>Y</HouseholdContact>
+          <IntegrationId>app-001</IntegrationId>
+          <LastName>Citizen</LastName>
+          <MiddleName>Allen</MiddleName>
+          <PreferredCommunications>Mobile Phone</PreferredCommunications>
+          <PreferredName>John</PreferredName>
+          <SelfEmployed>N</SelfEmployed>
+          <TakingResidence>Y</TakingResidence>
+          <TaxDeductableAmt>6000</TaxDeductableAmt>
+          <TaxDeductableAmtExisting>4000</TaxDeductableAmtExisting>
+          <Title>Mr</Title>
+          <WorkPhone>+610899991111</WorkPhone>
+          <HomeFax>+610877770000</HomeFax>
+	   <AnalysisOfNeeds>Y</AnalysisOfNeeds>
+	   <CreditAuthoritySigned>Y</CreditAuthoritySigned>
+	   <CustomerOfLender>Y</CustomerOfLender>
+	   <CustomerOfLenderMths>20</CustomerOfLenderMths>
+	   <EmployeeOfLender>Y</EmployeeOfLender>
+	   <ExistingCustomerOfBroker>Y</ExistingCustomerOfBroker>
+	   <FaceToFaceIdCheck>Y</FaceToFaceIdCheck>
+	   <MaritalStatus>Other</MaritalStatus>
+	   <ToReceiveLoanOfferDocs>Y</ToReceiveLoanOfferDocs>
+	   <ThirdPartyDisclosure>Y</ThirdPartyDisclosure>
+	   <AusResidentStatus>Resident</AusResidentStatus>
+	   <CountryOfResidence>Singapore</CountryOfResidence>
+	   <CountryOfCitizenship>Australia</CountryOfCitizenship>
+	   <AusPermResidentFlag>Y</AusPermResidentFlag>
+	   <PreviousName>Johnny</PreviousName>
+               <Employment>
+                  <FLEXId/>
+                  <IntegrationId>emply-001</IntegrationId>
+                  <Basis>PartTime</Basis>
+                  <Type>Unemployed</Type>
+                  <Status>Secondary Employment</Status>
+                  <Probation>Y</Probation>
+                  <StartDate>10/10/2012</StartDate>
+                  <EndDate>10/10/2014</EndDate>
+                  <RoleDescription>My job role</RoleDescription>
+				  <RoleCategory>Professionals</RoleCategory>
+                  <CompanyName>Emp company name</CompanyName>
+                  <CompanyType>Private</CompanyType>
+                  <ContactTitle>Mr</ContactTitle>
+                  <ContactFirstName>James</ContactFirstName>
+                  <ContactLastName>Brown</ContactLastName>
+                  <ContactWorkPhone>68458787</ContactWorkPhone>
+                  <ContactCellularPhone>0432746666</ContactCellularPhone>
+                  <ContactFax>87734454</ContactFax>
+                  <ContactEmail>Emp@email.com</ContactEmail>
+                  <Street>1 Employer Rd</Street>
+                  <City>Perth</City>
+                  <PostalCode>6000</PostalCode>
+                  <State>WA</State>
+                  <Country>Australia</Country>
+                  <ABN>12345678901</ABN>
+                  <ACN>123456789</ACN>
+				  <TimeInIndustry>5</TimeInIndustry>
+               </Employment>
+               <Employment>
+                  <FLEXId/>
+                  <IntegrationId>emply-002</IntegrationId>
+                  <Basis>FullTime</Basis>
+                  <Type>PAYE</Type>
+                  <Status>Primary Employment</Status>
+                  <Probation>N</Probation>
+                  <StartDate>10/11/2014</StartDate>
+                  <EndDate/>
+                  <RoleDescription>My second job role</RoleDescription>
+                  <CompanyName>2 Emp company name</CompanyName>
+                  <CompanyType>Private</CompanyType>
+                  <ContactTitle>Mr</ContactTitle>
+                  <ContactFirstName>Sally</ContactFirstName>
+                  <ContactLastName>Coll</ContactLastName>
+                  <ContactWorkPhone>95877788</ContactWorkPhone>
+                  <ContactCellularPhone>0473254477</ContactCellularPhone>
+                  <ContactFax>65898247</ContactFax>
+                  <ContactEmail>Sally@email.com</ContactEmail>
+                  <Street>2 Employer Rd</Street>
+                  <City>Perth</City>
+                  <PostalCode>6000</PostalCode>
+                  <State>WA</State>
+                  <Country>Australia</Country>
+                  <ABN>10987654321</ABN>
+                  <ACN>987654321</ACN>
+               </Employment>
+               <Identification>
+                  <FLEXId/>
+                  <IntegrationId>NT-101</IntegrationId>
+                  <DocumentNumber>DL12345</DocumentNumber>
+                  <DocumentType>DriversLicenceAust</DocumentType>
+                  <NameOnDocument>John Citizen</NameOnDocument>
+                  <IssueDate>01/01/1996</IssueDate>
+                  <ExpiryDate>01/01/2016</ExpiryDate>
+                  <IssuedBy>Government</IssuedBy>
+                  <StateIssued>ACT</StateIssued>
+                  <OriginalOrCertified>Certified</OriginalOrCertified>
+                  <VerifiedByFullName>Y</VerifiedByFullName>
+                  <VerifiedByDOB>Y</VerifiedByDOB>
+                  <VerifiedByPhoto>Y</VerifiedByPhoto>
+                  <VerifiedByAddress>Y</VerifiedByAddress>
+                  <VerifiedBySignature>Y</VerifiedBySignature>
+               </Identification>
+               <Income>
+                  <Amount>120000</Amount>
+			   <PreviousYearAmount>120000</PreviousYearAmount>
+                  <AssetFLEXId/>
+                  <AssetIntegrationId/>
+                  <Comments>My job</Comments>
+                  <FLEXId/>
+                  <Frequency>Annually</Frequency>
+                  <IncomeType>Salary - Gross</IncomeType>
+                  <IntegrationId>inc-001</IntegrationId>
+                  <EmploymentFLEXId/>
+                  <EmploymentIntegrationId>emply-001</EmploymentIntegrationId>
+               </Income>
+               <Income>
+                  <Amount>6000</Amount>
+                  <AssetFLEXId/>
+                  <AssetIntegrationId/>
+                  <Comments>My job overtime</Comments>
+                  <FLEXId/>
+                  <Frequency>Annually</Frequency>
+                  <IncomeType>Overtime - Gross</IncomeType>
+                  <IntegrationId>inc-006</IntegrationId>
+               </Income>
+			<Income>
+                  <Amount>120000</Amount>
+                  <AssetFLEXId/>
+                  <AssetIntegrationId/>
+                  <Comments>My job</Comments>
+                  <FLEXId/>
+                  <Frequency>Annually</Frequency>
+                  <IncomeType>Self Emp - Interest-HP-Lease</IncomeType>
+                  <IntegrationId>inc-005</IntegrationId>
+                  <EmploymentFLEXId/>
+                  <EmploymentIntegrationId>emply-001</EmploymentIntegrationId>
+               </Income>
+               <Income>
+                  <Amount>6000</Amount>
+                  <AssetFLEXId/>
+                  <AssetIntegrationId/>
+                  <Comments>My job overtime</Comments>
+                  <FLEXId/>
+                  <Frequency>Annually</Frequency>
+                  <IncomeType>Allowances</IncomeType>
+                  <IntegrationId>inc-007</IntegrationId>
+               </Income>
+     			<Income>
+                  <Amount>120000</Amount>
+                  <AssetFLEXId/>
+                  <AssetIntegrationId/>
+                  <Comments>My job</Comments>
+                  <FLEXId/>
+                  <Frequency>Annually</Frequency>
+                  <IncomeType>Commission</IncomeType>
+                  <IntegrationId>inc-008</IntegrationId>
+                  <EmploymentFLEXId/>
+                  <EmploymentIntegrationId>emply-001</EmploymentIntegrationId>
+               </Income>
+               <Income>
+                  <Amount>6000</Amount>
+                  <AssetFLEXId/>
+                  <AssetIntegrationId/>
+                  <Comments>My job overtime</Comments>
+                  <FLEXId/>
+                  <Frequency>Annually</Frequency>
+                  <IncomeType>Rental Income - New</IncomeType>
+                  <IntegrationId>inc-009</IntegrationId>
+               </Income>          
+               <WorkFax>+610899992222</WorkFax>
+               <SpouseFLEXId/>
+               <SpouseIntegrationId/>
+               <ForeseeableChange>No</ForeseeableChange>
+               <CompanyName>Testing Org</CompanyName>
+               <ServiceabilityGuarantor>N</ServiceabilityGuarantor>
+               <Expense>
+                  <Amount>120000</Amount>
+                  <Description>My CBA credit card</Description>
+                  <ExpenseType>Credit Card Limit</ExpenseType>
+                  <FLEXId/>
+                  <Frequency>Annually</Frequency>
+                  <IntegrationId>exp-001</IntegrationId>
+                  <LiabilityFLEXId/>
+                  <LiabilityIntegrationId>lia-113</LiabilityIntegrationId>
+                  <Refinance>N</Refinance>
+                  <OutstandingAmt>0</OutstandingAmt>
+               </Expense>
+               <Expense>
+                  <Amount>2500</Amount>
+                  <Description>Mortgage for investment property</Description>
+                  <ExpenseType>Mortgage Repayment</ExpenseType>
+                  <FLEXId/>
+                  <Frequency>Monthly</Frequency>
+                  <IntegrationId>exp-002</IntegrationId>
+                  <LiabilityFLEXId/>
+                  <LiabilityIntegrationId>lia-114</LiabilityIntegrationId>
+                  <Refinance>Y</Refinance>
+                  <OutstandingAmt>200000</OutstandingAmt>
+               </Expense>
+               <Expense>
+                  <Amount>50</Amount>
+                  <Description/>
+                  <ExpenseType>Living Expenses</ExpenseType>
+                  <FLEXId/>
+                  <Frequency>Monthly</Frequency>
+                  <IntegrationId>exp-003</IntegrationId>
+                  <LiabilityFLEXId/>
+                  <LiabilityIntegrationId/>
+                  <Refinance/>
+                  <OutstandingAmt/>
+               </Expense>
+            </Applicant>
+            <!--Applicant 2-->
+            <Applicant>
+               <Channel>Web</Channel>
+               <LeadAssignedFlag>N</LeadAssignedFlag>
+               <LeadReferenceId/>
+               <Source>Website</Source>
+               <BestCallTime>Mid-morning</BestCallTime>
+               <CellularPhone>0410-222-333</CellularPhone>
+               <Comments>A customer from web site</Comments>
+               <DateOfBirth>01/11/1977</DateOfBirth>
+               <DriversLicense>100000001</DriversLicense>
+               <FLEXId/>
+               <Company>N</Company>
+               <Dependents>2</Dependents>
+               <DoNotCall>Y</DoNotCall>
+               <DoNotSendEmail>Y</DoNotSendEmail>
+               <DoNotSendMail>Y</DoNotSendMail>
+               <DoNotSendMarketing>Y</DoNotSendMarketing>
+               <EmailAddress>jane.citizen@afgonline.com.au</EmailAddress>
+               <FirstName>Jane</FirstName>
+               <Gender>F</Gender>
+               <Guarantor>N</Guarantor>
+               <HomePhone>+610811112222</HomePhone>
+               <HouseholdContact>Y</HouseholdContact>
+               <IntegrationId>app-004</IntegrationId>
+               <LastName>Citizen</LastName>
+               <MiddleName>Susan</MiddleName>
+               <PreferredCommunications>Mobile Phone</PreferredCommunications>
+               <PreferredName>Jane</PreferredName>
+               <SelfEmployed>N</SelfEmployed>
+               <TakingResidence>Y</TakingResidence>
+               <TaxDeductableAmt>0</TaxDeductableAmt>
+               <TaxDeductableAmtExisting>0</TaxDeductableAmtExisting>
+               <Title>Ms</Title>
+               <WorkPhone>+610899995555</WorkPhone>
+               <HomeFax>+610877776666</HomeFax>
+               <AnalysisOfNeeds>Y</AnalysisOfNeeds>
+               <CreditAuthoritySigned>Y</CreditAuthoritySigned>
+               <CustomerOfLender>Y</CustomerOfLender>
+               <CustomerOfLenderMths>20</CustomerOfLenderMths>
+               <EmployeeOfLender>Y</EmployeeOfLender>
+               <ExistingCustomerOfBroker>Y</ExistingCustomerOfBroker>
+               <FaceToFaceIdCheck>Y</FaceToFaceIdCheck>
+               <MaritalStatus>Other</MaritalStatus>
+               <ToReceiveLoanOfferDocs>Y</ToReceiveLoanOfferDocs>
+               <ThirdPartyDisclosure>Y</ThirdPartyDisclosure>
+               <AusResidentStatus>Resident</AusResidentStatus>
+               <CountryOfResidence>Singapore</CountryOfResidence>
+               <CountryOfCitizenship>Australia</CountryOfCitizenship>
+               <AusPermResidentFlag>Y</AusPermResidentFlag>
+               <PreviousName>Jayne</PreviousName>
+               <Identification>
+                  <FLEXId/>
+                  <IntegrationId>iden-201</IntegrationId>
+                  <DocumentNumber>12345</DocumentNumber>
+                  <DocumentType>DeedPoll</DocumentType>
+                  <NameOnDocument>Jane Citizen</NameOnDocument>
+                  <IssueDate>01/01/1996</IssueDate>
+                  <ExpiryDate>01/01/2016</ExpiryDate>
+                  <IssuedBy>Government</IssuedBy>
+                  <StateIssued>ACT</StateIssued>
+                  <OriginalOrCertified>Certified</OriginalOrCertified>
+                  <VerifiedByFullName>Y</VerifiedByFullName>
+                  <VerifiedByDOB>Y</VerifiedByDOB>
+                  <VerifiedByPhoto>Y</VerifiedByPhoto>
+                  <VerifiedByAddress>Y</VerifiedByAddress>
+                  <VerifiedBySignature>Y</VerifiedBySignature>
+               </Identification>
+               <Income>
+                  <Amount>80000</Amount>
+                  <AssetFLEXId/>
+                  <AssetIntegrationId/>
+                  <Comments>My job</Comments>
+                  <FLEXId/>
+                  <Frequency>Annually</Frequency>
+                  <IncomeType>Salary - Gross</IncomeType>
+                  <IntegrationId>inc-011</IntegrationId>
+               </Income>
+               <Income>
+                  <Amount>30000</Amount>
+                  <AssetFLEXId/>
+                  <AssetIntegrationId>asset-001</AssetIntegrationId>
+                  <Comments>We'll rent out the current unit</Comments>
+                  <FLEXId/>
+                  <Frequency>Annually</Frequency>
+                  <IncomeType>Rental Income - New</IncomeType>
+                  <IntegrationId>inc-010</IntegrationId>
+               </Income>
+               <WorkFax>+610866665555</WorkFax>
+               <SpouseFLEXId/>
+               <SpouseIntegrationId/>
+               <ForeseeableChange>Yes</ForeseeableChange>
+               <CompanyName>ABC Accounting</CompanyName>
+               <ServiceabilityGuarantor>N</ServiceabilityGuarantor>
+               <Expense>
+                  <Amount>10000</Amount>
+                  <Description>My credit card</Description>
+                  <ExpenseType>Credit Card Limit</ExpenseType>
+                  <FLEXId/>
+                  <Frequency>Annually</Frequency>
+                  <IntegrationId>exp-004</IntegrationId>
+                  <LiabilityFLEXId/>
+                  <LiabilityIntegrationId>lia-113</LiabilityIntegrationId>
+                  <Refinance>N</Refinance>
+                  <OutstandingAmt>0</OutstandingAmt>
+               </Expense>
+               <Expense>
+                  <Amount>800</Amount>
+                  <Description>Car loan for Land Rover</Description>
+                  <ExpenseType>Car Loan</ExpenseType>
+                  <FLEXId/>
+                  <Frequency>Monthly</Frequency>
+                  <IntegrationId>exp-005</IntegrationId>
+                  <LiabilityFLEXId/>
+                  <LiabilityIntegrationId>lia-114</LiabilityIntegrationId>
+                  <Refinance>N</Refinance>
+                  <OutstandingAmt>15000</OutstandingAmt>
+               </Expense>
+               <Expense>
+                  <Amount>50</Amount>
+                  <Description/>
+                  <ExpenseType>Living Expenses</ExpenseType>
+                  <FLEXId/>
+                  <Frequency>Monthly</Frequency>
+                  <IntegrationId>exp-016</IntegrationId>
+                  <LiabilityFLEXId/>
+                  <LiabilityIntegrationId/>
+                  <Refinance/>
+                  <OutstandingAmt/>
+               </Expense>
+            </Applicant>
+            <!--Applicant 3-->
+            <Applicant>
+               <Channel>Web</Channel>
+               <DirectAddressStreet>14999 Company Road</DirectAddressStreet>
+               <DirectAddressCity>Claremont</DirectAddressCity>
+               <DirectAddressPostalCode>6010</DirectAddressPostalCode>
+               <DirectAddressState>WA</DirectAddressState>
+               <LeadAssignedFlag>N</LeadAssignedFlag>
+               <LeadReferenceId/>
+               <Source>Website</Source>
+               <BestCallTime>Mid-morning</BestCallTime>
+               <CellularPhone>0410-222-444</CellularPhone>
+               <Comments/>
+               <FLEXId/>
+               <IntegrationId>app-006</IntegrationId>
+               <Company>Y</Company>
+               <DoNotSendMarketing>Y</DoNotSendMarketing>
+               <DoNotCall>N</DoNotCall>
+               <DoNotSendMail>N</DoNotSendMail>
+               <DoNotSendEmail>N</DoNotSendEmail>
+               <EmailAddress>Comp.ABC@email.com.au</EmailAddress>
+               <WorkFax>+610866665555</WorkFax>
+               <CompanyName>ABC Accounting</CompanyName>
+               <CompanyType>Ltd</CompanyType>
+               <CompanyDescription>Trust</CompanyDescription>
+               <CompanyIndustry>Mining</CompanyIndustry>
+               <CompanyABN>45678912301</CompanyABN>
+               <CompanyACN>456789123</CompanyACN>
+               <CompanyARBN/>
+                <ForeseeableChange>No</ForeseeableChange>
+               <CompanyRegisteredIn>WA</CompanyRegisteredIn>
+               <CompanyRegisteredDate>01/01/2008</CompanyRegisteredDate>
+            </Applicant>
+            <!--Asset 1-->
+            <Asset>
+               <AssetType>Real Estate</AssetType>
+               <Description>My investment property</Description>
+               <FLEXId/>
+               <IntegrationId>asset-001</IntegrationId>
+               <Value>600000</Value>
+               <City>WEST PERTH</City>
+               <Ownership>
+                  <ApplicantFLEXId/>
+                  <ApplicantIntegrationId>app-001</ApplicantIntegrationId>
+                  <OwnershipPercentage>50</OwnershipPercentage>
+               </Ownership>
+               <Postcode>6005</Postcode>
+               <Street>100 Test Street</Street>
+               <State>WA</State>
+			<Country>Australia</Country>
+            </Asset>
+            <!--Asset 2-->
+            <Asset>
+               <AssetType>Motor Vehicle</AssetType>
+               <Description>Land Rover 2012</Description>
+               <FLEXId/>
+               <IntegrationId>asset-002</IntegrationId>
+               <Value>50000</Value>
+               <Ownership>
+                  <ApplicantFLEXId/>
+                  <ApplicantIntegrationId>app-001</ApplicantIntegrationId>
+                  <OwnershipPercentage>50</OwnershipPercentage>
+               </Ownership>
+            </Asset>
+            <!--Liability 1-->
+            <Liability>
+               <AssetFLEXId/>
+               <AssetIntegrationId/>
+               <BSB>111111</BSB>
+               <AccountNumber>123-456</AccountNumber>
+               <Balance>2000</Balance>
+               <Creditor>CBA</Creditor>
+               <Description>John's credit card</Description>
+               <ExitCostAmt/>
+               <FLEXId/>
+               <IntegrationId>lia-113</IntegrationId>
+               <InterestRate/>
+               <LiabilityType>Credit Card</LiabilityType>
+               <Limit>12000</Limit>
+               <RefinanceReason/>
+               <Term/>
+            </Liability>
+            <!--Liability 2-->
+            <Liability>
+               <AssetFLEXId/>
+               <AssetIntegrationId>asset-001</AssetIntegrationId>
+               <BSB>222222</BSB>
+               <AccountNumber>654-321</AccountNumber>
+               <Balance>200000</Balance>
+               <Creditor>CBA</Creditor>
+               <Description>Mortgage for investment property</Description>
+               <ExitCostAmt>200</ExitCostAmt>
+               <FLEXId/>
+               <IntegrationId>lia-114</IntegrationId>
+               <InterestRate>6</InterestRate>
+               <LiabilityType>Mortgage Loan</LiabilityType>
+               <Limit>420000</Limit>
+               <RefinanceReason>Restructure Finances</RefinanceReason>
+               <Term>20</Term>
+            </Liability>
+            <!--Liability 3-->
+            <Liability>
+               <AssetFLEXId/>
+               <AssetIntegrationId/>
+               <Balance>0</Balance>
+               <Creditor>Bankwest</Creditor>
+               <Description>Jane's credit card</Description>
+               <ExitCostAmt/>
+               <FLEXId/>
+               <IntegrationId>lia-003</IntegrationId>
+               <InterestRate/>
+               <LiabilityType>Credit Card</LiabilityType>
+               <Limit>10000</Limit>
+               <RefinanceReason/>
+               <Term>0</Term>
+            </Liability>
+            <!--Liability 4-->
+            <Liability>
+               <AssetFLEXId/>
+               <AssetIntegrationId>asset-002</AssetIntegrationId>
+               <Balance>15000</Balance>
+               <Creditor>CBA</Creditor>
+               <Description>Car loan for Land Rover</Description>
+               <ExitCostAmt>100</ExitCostAmt>
+               <FLEXId/>
+               <IntegrationId>lia-004</IntegrationId>
+               <InterestRate/>
+               <LiabilityType>Other Loan</LiabilityType>
+               <Limit>30000</Limit>
+               <RefinanceReason>Restructure Finances</RefinanceReason>
+               <Term/>
+            </Liability>
+            <!--Product 1-->
+            <Product>
+               <FLEXId/>
+               <IntegrationId>prod-001</IntegrationId>
+               <LoanPurpose>Regulated</LoanPurpose>
+               <ProductFLEXId>1-6D9UB</ProductFLEXId>
+               <RepaymentOption>Principal &amp; Interest</RepaymentOption>
+               <Selected>Y</Selected>
+               <BaseSplitAmount>240000</BaseSplitAmount>
+               <LMISplitAmount>0</LMISplitAmount>
+               <SVRDiscountAmount>0.2</SVRDiscountAmount>
+               <LoanTerm>20</LoanTerm>
+			<IOTerm>5</IOTerm>
+            </Product>
+            <!--Product 2-->
+            <Product>
+               <FLEXId/>
+               <IntegrationId>prod-002</IntegrationId>
+               <LoanPurpose>Regulated</LoanPurpose>
+               <ProductFLEXId>1-IJCWIN</ProductFLEXId>
+               <RepaymentOption>Principal &amp; Interest</RepaymentOption>
+               <Selected>Y</Selected>
+               <BaseSplitAmount>700000</BaseSplitAmount>
+               <LMISplitAmount>0</LMISplitAmount>
+               <SVRDiscountAmount>0.3</SVRDiscountAmount>
+               <LoanTerm>25</LoanTerm>
+            </Product>
+            <!--Property 1-->
+            <Property>
+               <FirstPriorityAmount/>
+               <AddressCity>Perth</AddressCity>
+               <AddressPostCode>6005</AddressPostCode>
+               <AddressState>WA</AddressState>
+               <AddressStreet>100 Testing Street</AddressStreet>
+               <AddressGNAFId>WEST PERTH</AddressGNAFId>
+               <ConveyancingFee/>
+               <FLEXId/>
+               <IntegrationId>prop-001</IntegrationId>
+               <Purpose>Owner Occupied</Purpose>
+               <PropertyType>House</PropertyType>
+               <Usage>Purchase</Usage>
+               <Value>800000</Value>
+               <Status>To Be Built</Status>
+               <Holding>Sole</Holding>
+               <Zoning>Commercial</Zoning>
+               <WillOwn3UnitsInComplex>Y</WillOwn3UnitsInComplex>
+               <WillOwn25PercentOfComplex>Y</WillOwn25PercentOfComplex>
+               <OffThePlan>Y</OffThePlan>
+               <EstimatedBasis>Rates Notice</EstimatedBasis>
+               <EstimatedValue>800001</EstimatedValue>
+               <ContractPrice>800002</ContractPrice>
+               <ContractDate>15/02/2015</ContractDate>
+               <LicensedRealEstateContract>Y</LicensedRealEstateContract>
+               <ValuationDate>23/01/2015</ValuationDate>
+               <TenureType>Freehold</TenureType>
+               <TitleSystem>Old Law</TitleSystem>
+               <TitleIdType>Torrens Division</TitleIdType>
+               <TitleIdValue>0001</TitleIdValue>
+               <Construction>
+                  <LandPurchaseAmt>350000</LandPurchaseAmt>
+                  <InitialDrawdown>351000</InitialDrawdown>
+                  <TotalConstructionAmt>450000</TotalConstructionAmt>
+                  <ApprovedCouncilPlans>Y</ApprovedCouncilPlans>
+                  <SatisfactoryTOCValuation>Y</SatisfactoryTOCValuation>
+                  <OwnerBuilder>N</OwnerBuilder>
+                  <BuildPriceContract>451000</BuildPriceContract>
+                  <FixedPriceContractSigned>Y</FixedPriceContractSigned>
+                  <ConstructionInsuranceHeld>Y</ConstructionInsuranceHeld>
+               </Construction>
+            </Property>
+            <!--Property 2-->
+            <Property>
+               <FirstPriorityAmount>8000</FirstPriorityAmount>
+               <AddressCity>Claremont</AddressCity>
+               <AddressPostCode>6010</AddressPostCode>
+               <AddressState>WA</AddressState>
+               <AddressStreet>345 Testing Road</AddressStreet>
+               <ConveyancingFee/>
+               <FLEXId/>
+               <IntegrationId>prop-002</IntegrationId>
+               <Purpose>Investment</Purpose>
+               <PropertyType>Strata title or Unit</PropertyType>
+               <Usage>Security</Usage>
+               <Value>600000</Value>
+               <PrimarySecurity>Y</PrimarySecurity>
+               <Status>Established</Status>
+               <Holding>Sole</Holding>
+               <Zoning>Commercial</Zoning>
+               <WillOwn3UnitsInComplex>Y</WillOwn3UnitsInComplex>
+               <WillOwn25PercentOfComplex>Y</WillOwn25PercentOfComplex>
+               <OffThePlan>Y</OffThePlan>
+               <EstimatedBasis>Rates Notice</EstimatedBasis>
+               <EstimatedValue>800001</EstimatedValue>
+               <ValuationDate>23/01/2015</ValuationDate>
+               <TenureType>Freehold</TenureType>
+               <TitleSystem>Old Law</TitleSystem>
+               <TitleIdType>Torrens Division</TitleIdType>
+               <TitleIdValue>0001</TitleIdValue>
+            </Property>
+            <!--Activity 1-->
+            <Activity>
+               <Alarm>N</Alarm>
+               <Comment>Testing</Comment>
+               <Description>Calling John</Description>
+               <Duration>15</Duration>
+               <FLEXId/>
+               <IntegrationId>act-001</IntegrationId>
+               <Planned>01/12/2016 08:00:00</Planned>
+               <PlannedEnd/>
+               <Priority>1-ASAP</Priority>
+               <Status>Not Started</Status>
+               <Type>Call</Type>
+            </Activity>
+            <!--Activity 2-->
+            <Activity>
+               <Alarm>N</Alarm>
+               <Comment>Testing</Comment>
+               <Description>Calling John</Description>
+               <Duration/>
+               <FLEXId/>
+               <IntegrationId>act-002</IntegrationId>
+               <Planned>03/12/2016 08:30:00</Planned>
+               <PlannedEnd>03/12/2016 08:45:00</PlannedEnd>
+               <Priority>1-ASAP</Priority>
+               <Status>Not Started</Status>
+               <Type>Follow-up</Type>
+            </Activity>
+            <!--Note 1-->
+            <Note>
+               <FLEXId/>
+               <IntegrationId>note-001</IntegrationId>
+               <Text>Opportunity is created</Text>
+            </Note>
+            <!--Note 2-->
+            <Note>
+               <FLEXId/>
+               <IntegrationId>note-002</IntegrationId>
+               <Text>Opportunity is checked</Text>
+            </Note>
+            <!--Third Party 1-->
+            <ThirdParty>
+               <Comment>Family accountant</Comment>
+               <CellularPhone>0488887777</CellularPhone>
+               <EmailAddress>first.last@afgonline.com.au</EmailAddress>
+               <FirstName>Firs1t</FirstName>
+               <FLEXId/>
+               <IntegrationId>tp-001</IntegrationId>
+               <LastName>Last</LastName>
+               <Role>Accountant</Role>
+               <Title>Ms</Title>
+               <WorkPhone>+610866665555</WorkPhone>
+               <MiddleName>Middle</MiddleName>
+               <HomePhone>+610866665555</HomePhone>
+               <FaxPhone>+610855554444</FaxPhone>
+            </ThirdParty>
+            <!--Third Party 2-->
+            <ThirdParty>
+               <Comment>Family Lawyer</Comment>
+               <CellularPhone>0488889999</CellularPhone>
+               <EmailAddress>ernest.james@afgonline.com.au</EmailAddress>
+               <FirstName>Erne1st</FirstName>
+               <FLEXId/>
+               <IntegrationId>tp-002</IntegrationId>
+               <LastName>James</LastName>
+               <Role>Solicitor</Role>
+               <Title>Mr</Title>
+               <WorkPhone>+610855554444</WorkPhone>
+               <MiddleName/>
+               <HomePhone>+610866661111</HomePhone>
+               <FaxPhone>+610877771111</FaxPhone>
+            </ThirdParty>
+            <!--Third Party 3-->
+            <ThirdParty>
+               <Company>Y</Company>
+               <Comment>Test Company</Comment>
+               <CellularPhone>0488887777</CellularPhone>
+               <EmailAddress>first.last.comp@email.com.au</EmailAddress>
+               <CompanyName>Fir1stC</CompanyName>
+               <ABN>01234567890</ABN>
+               <ACN>012345678</ACN>
+               <ARBN>123456789</ARBN>
+               <CompanyRegisteredIn>WA</CompanyRegisteredIn>
+               <CompanyRegisteredDate>12/02/2015</CompanyRegisteredDate>
+               <FLEXId/>
+               <IntegrationId>tp-003</IntegrationId>
+               <Role>Accountant</Role>
+               <WorkPhone>+610866665555</WorkPhone>
+               <MiddleName>Middle</MiddleName>
+               <HomePhone>+610866665555</HomePhone>
+               <FaxPhone>+610855554444</FaxPhone>
+            </ThirdParty>
+            <!--Product Filter Data-->
+            <ProductFilter>
+               <BasicExclude>N</BasicExclude>
+               <BasicInclude>Y</BasicInclude>
+               <CreditImpairedExclude>N</CreditImpairedExclude>
+               <CreditImpairedMustBe>N</CreditImpairedMustBe>
+               <EquityExclude>N</EquityExclude>
+               <EquityInclude>Y</EquityInclude>
+               <Feature1>Bpay Access</Feature1>
+               <Feature2>Bridging Available</Feature2>
+               <Feature3>Debit Card Available</Feature3>
+               <Feature4>Direct Credit Access</Feature4>
+               <Feature5>Early Repayment/Break Costs</Feature5>
+               <FilterLoanPurpose>Either</FilterLoanPurpose>
+               <FilterRepaymentOption>Either</FilterRepaymentOption>
+               <FilterState>WA</FilterState>
+               <FinancialInstitution1>Commonwealth Bank</FinancialInstitution1>
+               <FinancialInstitution2>Westpac</FinancialInstitution2>
+               <FinancialInstitution3>ANZ</FinancialInstitution3>
+               <FinancialInstitution4>Bankwest</FinancialInstitution4>
+               <FinancialInstitution5>St George Bank</FinancialInstitution5>
+               <FixedExclude>N</FixedExclude>
+               <FixedInclude>Y</FixedInclude>
+               <FixedYearsFrom>1</FixedYearsFrom>
+               <FixedYearsTo>5</FixedYearsTo>
+               <GenuineSavings>5%</GenuineSavings>
+               <InterestInAdvanceExclude>Y</InterestInAdvanceExclude>
+               <InterestInAdvanceMustBe>N</InterestInAdvanceMustBe>
+               <IntroExclude>N</IntroExclude>
+               <IntroInclude>Y</IntroInclude>
+               <LoanAmountRestriction>N</LoanAmountRestriction>
+               <LowDocExclude>Y</LowDocExclude>
+               <LowDocMustBe>N</LowDocMustBe>
+               <LVRRestriction>N</LVRRestriction>
+               <NilApplicationFees>Y</NilApplicationFees>
+               <NilOngoingFees>Y</NilOngoingFees>
+               <NoDocExclude>N</NoDocExclude>
+               <NoDocMustBe>N</NoDocMustBe>
+               <ProfPackExclude>N</ProfPackExclude>
+               <ProfPackInclude>Y</ProfPackInclude>
+               <ReverseMortgageExclude>N</ReverseMortgageExclude>
+               <ReverseMortgageInclude>Y</ReverseMortgageInclude>
+               <StandardVariableExclude>N</StandardVariableExclude>
+               <StandardVariableInclude>Y</StandardVariableInclude>
+            </ProductFilter>
+           </Opportunity>
+         <cus:CallingSystem>AFGIntegrationTesting</cus:CallingSystem>
+         <cus:KeepLocking>?</cus:KeepLocking>
+         <cus:Error_spcCode>?</cus:Error_spcCode>
+         <cus:EmailAddrOverwrite>?</cus:EmailAddrOverwrite>
+      </cus:SyncOpportunity4_Input>
+   </soapenv:Body>
+</soapenv:Envelope>
